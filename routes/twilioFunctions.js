@@ -19,7 +19,7 @@ const messageCustomer = (customer) => {
     .create({
        body: text,
        from: twilioNumber,
-       to: '+15877836295'
+       to: '+1....'
      })
     .then(message => console.log(message.sid));
 
@@ -33,7 +33,7 @@ const messageRestaurant = (orderId, customer) => {
     .create({
        body: text,
        from: twilioNumber,
-       to: '+15875769783'
+       to: '+1....'
      })
 };
 
@@ -43,7 +43,7 @@ const messageOrderReady = (orderId) => {
     .create({
        body: text,
        from: twilioNumber,
-       to: '+15877836295'
+       to: '+1....'
      })
 
 };
